@@ -11,11 +11,14 @@ Nothing fancy.
 
 Current:
 - api keys supported are only  RSA keys with 2048 bits, RSA SSA PKCS1 v1.5 signature algorithm, and SHA256 cryptographic hash
+
+
 To do:
 - add support to new API key generation based in FIPS 186-4 P256 elliptic curve key, ECDSA signature algorithm, and SHA256 cryptographic hash
 - add web based way to add clients to page
 - add secure storage to fetch private keys in Vault
 - cosmetics
+
 Lessons Learned:
 - Intersight is tricky in regards to HTTP Auth, only supports HTTP Digest Auth, where body of message is digested and added to header. 
 - Intersight Handbook is an **excellent** reference to start.
