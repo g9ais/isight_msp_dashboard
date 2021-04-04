@@ -5,3 +5,5 @@ intersight-rest-api-master/
 intersight_python/
 __pycache__/
 .venv/
+.vscode/
+account_details.py

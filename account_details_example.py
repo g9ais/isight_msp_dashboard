@@ -1,0 +1,13 @@
+accounts=[
+    {
+        "directurl":"https://1234567890abcd.intersight.com/",
+        "keyID":"1234567890/1234567890/1234567890",
+        "baseurl":"https://intersight.com",
+        "pvk_file":"private_key_client1.pem"
+    },{
+        "directurl":"https://0987654321.intersight.com/",
+        "keyID":"0987654321/0987654321/0987654321",
+        "baseurl":"https://intersight.com",
+        "pvk_file":"private_key_client2.pem"   
+    }
+]
