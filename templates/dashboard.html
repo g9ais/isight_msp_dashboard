@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+    body {
+        height:100%
+    }
+    table {
+        width:100%;
+        border: 2px solid blue;
+    }
+    td, th {
+        text-align: center;
+        border: 1px solid blue;
+    }
+    #bottom{
+        position:fixed;
+        bottom:0;
+    }
+</style>
+<meta http-equiv="refresh" content="30"/>
+</head>
+<body>
+<div>
+<h1>MSP Intersight Client Dashboard</h1>
+</div>
+<div>
+    <h2>Client List and Alarms</h2>
+</div>
+<div id="mainclient">
+    <table> 
+        <tr>  
+            <th>Client Account</th>
+            <th style="color:red">Critical Issues</th>
+            <th style="color:orange">Warning Issues</th>
+        </tr>
+        <!-- <tr>
+            <td>ACME</td>
+            <td><a href="intersight.com">Link</a></td>
+            <td>35</td>
+            <td>42</td>
+        </tr> -->
+        {% for account in clients %}
+        <tr>
+            <td><a href="{{account['url']}}" target="_blank">{{account['name']}}</a> </td>
+            <td>{{account['critical']}}</td>
+            <td>{{account['warning']}}</td>
+        </tr>
+        {% endfor %}
+
+
+
+    </table>
+</div>
+<div id="bottom">
+    <p>g9ais productions - page will refresh periodically</p>
+</div>
+</body>
+</html>

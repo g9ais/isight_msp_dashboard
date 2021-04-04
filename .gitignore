@@ -1,0 +1,7 @@
+*.pem
+*.zip
+intersight/
+intersight-rest-api-master/
+intersight_python/
+__pycache__/
+.venv/
