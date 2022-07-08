@@ -32,3 +32,7 @@ Basically this made all the difference while trying to access isight.
         signing_scheme = intersight.signing.SCHEME_HS2019
         signing_algorithm = intersight.signing.ALGORITHM_ECDSA_MODE_FIPS_186_3
 ```
+
+Requirements:
+- intersight SDK installed - pip install intersight
+- flask installed - pip install flask
