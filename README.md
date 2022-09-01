@@ -12,6 +12,7 @@ Nothing fancy.
 Current:
 - api keys supported are only  RSA keys with 2048 bits, RSA SSA PKCS1 v1.5 signature algorithm, and SHA256 cryptographic hash
 - do refer to **account_details._example.py** for example on account addition, referring to private key file located as well as account Moid
+- rename **account_details._example.py** to **account_details.py** for account import  (TBchanged)
 
 
 To do:
