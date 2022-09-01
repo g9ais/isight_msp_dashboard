@@ -37,4 +37,4 @@ Requirements:
 - intersight SDK installed - pip install intersight
 - flask installed - pip install flask
 - run script
--- python websrv.py
+- python websrv.py
