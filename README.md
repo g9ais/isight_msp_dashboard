@@ -11,7 +11,7 @@ Nothing fancy.
 
 Current:
 - api keys supported are only  RSA keys with 2048 bits, RSA SSA PKCS1 v1.5 signature algorithm, and SHA256 cryptographic hash
-- do refer to **account_details_example.py** to add accounts.
+- do refer to **account_details._example.py** for example on account addition, referring to private key file located as well as account Moid
 
 
 To do:
