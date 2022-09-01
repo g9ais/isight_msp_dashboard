@@ -11,6 +11,7 @@ Nothing fancy.
 
 Current:
 - api keys supported are only  RSA keys with 2048 bits, RSA SSA PKCS1 v1.5 signature algorithm, and SHA256 cryptographic hash
+- do refer to **account_details_example.py** to add accounts.
 
 
 To do:
