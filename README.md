@@ -36,5 +36,5 @@ Basically this made all the difference while trying to access isight.
 Requirements:
 - intersight SDK installed - pip install intersight
 - flask installed - pip install flask
-- intersight SDK installed - pip install intersight
+- run script
 -- python websrv.py
